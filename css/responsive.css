@@ -1,0 +1,44 @@
+
+@media only screen and (max-width : 1024px) {    
+
+    #hero{max-height: 660px;}    
+
+}
+
+@media only screen and (max-width : 980px) {
+
+    #hero{height: 540px;}
+
+    #about{padding-top: 40px;}
+
+    
+    .myphoto{text-align: center;}
+
+@media only screen and (max-width : 640px) {
+    
+    h2 {font-size: 1.9em;}
+    h3{font-size: 1.5em}
+    h4{font-size: 1.1em;}
+    
+    
+    .myphoto{display: none;}
+
+
+    #hero{height: 400px;}    
+    .herocontent{padding-top: 30px;}
+    
+
+    #about{text-align: center;}
+    
+
+@media only screen and (max-width : 480px) {
+    #hero{height: 320px;}
+}
+
+@media only screen and (max-width : 320px) {
+    #hero{height: 480px;}
+    .herocontent{padding-top: 100px; padding-bottom: 30px;}
+
+}
+
+
